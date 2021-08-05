@@ -14,6 +14,7 @@
 		BDF0DB8626B9B5AD00963608 /* Erootition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF0DB8426B9B5AD00963608 /* Erootition.xcdatamodeld */; };
 		BDF0DB8826B9B5AE00963608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF0DB8726B9B5AE00963608 /* Assets.xcassets */; };
 		BDF0DB8B26B9B5AE00963608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF0DB8926B9B5AE00963608 /* LaunchScreen.storyboard */; };
+		BDF0DB9526BC2BF000963608 /* erootitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF0DB9426BC2BF000963608 /* erootitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BDF0DB8726B9B5AE00963608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF0DB8A26B9B5AE00963608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDF0DB8C26B9B5AE00963608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF0DB9426BC2BF000963608 /* erootitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erootitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BDF0DB7D26B9B5AD00963608 /* SceneDelegate.swift */,
 				BDF0DB7F26B9B5AD00963608 /* ViewController.swift */,
 				BDF0DB8126B9B5AD00963608 /* Main.storyboard */,
+				BDF0DB9426BC2BF000963608 /* erootitionViewController.swift */,
 				BDF0DB8726B9B5AE00963608 /* Assets.xcassets */,
 				BDF0DB8926B9B5AE00963608 /* LaunchScreen.storyboard */,
 				BDF0DB8C26B9B5AE00963608 /* Info.plist */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF0DB9526BC2BF000963608 /* erootitionViewController.swift in Sources */,
 				BDF0DB8026B9B5AD00963608 /* ViewController.swift in Sources */,
 				BDF0DB7C26B9B5AD00963608 /* AppDelegate.swift in Sources */,
 				BDF0DB7E26B9B5AD00963608 /* SceneDelegate.swift in Sources */,
