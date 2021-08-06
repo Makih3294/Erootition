@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="erootitionViewController" customModule="Erootition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="eROOTition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jke-08-dXp">
@@ -51,6 +51,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.64936495029999997" green="0.79662480309999995" blue="0.56178136710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="4Kg-yU-oSo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,6 +141,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5To-OG-Wzx">
                                 <rect key="frame" x="67" y="536" width="273" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -610,6 +612,16 @@
                                     <segue destination="PdM-5t-tKK" kind="show" id="ySf-en-cs8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7Y-9A-aK9">
+                                <rect key="frame" x="23" y="778" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="5Qj-2A-UZ7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eFG-Db-KIq"/>
                         <color key="backgroundColor" red="0.64936495029999997" green="0.79662480309999995" blue="0.56178136710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -788,6 +800,16 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAQ-AA-Qhk">
+                                        <rect key="frame" x="29" y="794" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Ze7-kJ-4ow" kind="show" id="xvr-uq-JBy"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="Ndt-5o-hgo"/>
                                 <color key="backgroundColor" red="0.50570548680000005" green="0.6366225754" blue="0.79629077329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1037,6 +1059,16 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdh-KE-CjF">
+                                        <rect key="frame" x="36" y="793" width="34" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Ze7-kJ-4ow" kind="show" id="hnq-vm-RuO"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="dfO-h5-rpn"/>
                                 <color key="backgroundColor" red="0.50570548680000005" green="0.6366225754" blue="0.79629077329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1129,11 +1161,10 @@
                                                 <color key="textColor" red="0.82716259510000001" green="0.76241801939999998" blue="0.68514934360000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AMJ-jl-y7f">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Since the beginning of the Industrial Revolution, surface ocean acidity has increased by 30% due to carbon emissions " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AMJ-jl-y7f">
                                                 <rect key="frame" x="39" y="1035" width="355" height="91"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.64936495029999997" green="0.79662480309999995" blue="0.56178136710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">Between 1993 and 2019, Greenland lost an average of 279 billion tons per year and Antarctica an average 148 billion tons of ice per year</string>
                                                 <color key="textColor" red="0.26776236040000001" green="0.34681941100000002" blue="0.2412491145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1288,6 +1319,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2po-ww-zy3">
+                                <rect key="frame" x="26" y="778" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ze7-kJ-4ow" kind="show" id="VUY-rz-jhL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AYx-gY-zoh"/>
                         <color key="backgroundColor" red="0.50570548680000005" green="0.6366225754" blue="0.79629077329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1464,6 +1505,10 @@
             <point key="canvasLocation" x="4824.6376811594209" y="97.767857142857139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ySf-en-cs8"/>
+        <segue reference="xvr-uq-JBy"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-08-05 at 1.49.58 PM" width="205" height="164"/>
         <image name="image-from-rawpixel-id-3818873-png" width="5000" height="2812"/>
